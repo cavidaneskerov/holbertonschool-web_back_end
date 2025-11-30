@@ -3,4 +3,4 @@
 
 def schools_by_topic(mongo_collection, topic):
     """Select with pymongo fsdf dsf dfs"""
-   return list(mongo_collection.find({ "topic": topic }))
+    return list(mongo_collection.find({ "topic": topic }))
